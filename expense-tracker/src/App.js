@@ -8,7 +8,7 @@ import Dashboard from './pages/Dashboard';
 import ProtectedRoute from './components/ProtectedRoute';
 
 
-export const backendurl = "http://localhost:5000";
+export const backendurl = "https://expense-tracker-bshk-eight.vercel.app";
 function App() {
   return (
     <AuthProvider>

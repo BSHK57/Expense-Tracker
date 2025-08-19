@@ -12,7 +12,7 @@ const app = express();
 app.use(cors({
   origin: '*',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  credentials: true // if you're using cookies or auth headers
+  // credentials: true // if you're using cookies or auth headers
 })); // Allow cross-origin requests
 app.use(express.json()); // Parse JSON bodies
 

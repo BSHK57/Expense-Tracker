@@ -8,7 +8,7 @@ import Dashboard from './pages/Dashboard';
 import ProtectedRoute from './components/ProtectedRoute';
 
 
-export const backendurl = "https://expense-tracker-backend-shk57.vercel.app/";
+export const backendurl = "https://expense-tracker-backend-shk57.vercel.app";
 function App() {
   return (
     <AuthProvider>

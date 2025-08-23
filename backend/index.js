@@ -97,7 +97,7 @@ app.post("/api/auth/login", async (req, res) => {
 });
 
 // ===== Transaction Routes (Protected) =====
-app.use("/api/transactions", authMiddleware);
+//app.use("/api/transactions", authMiddleware);
 
 app.get("/api/transactions", async (req, res) => {
   try {
